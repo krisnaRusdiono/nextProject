@@ -1,9 +1,5 @@
-import Image from 'next/image'
+import AppView from "@/views/app/App";
 
 export default function Home() {
-  return (
-    <div>
-      NBP Center Bandung App's
-    </div>
-  )
+  return <AppView />
 }
